@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.task.university.SearchPlacesActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169.5dip"
+        android:layout_height="58dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dip"
+        android:layout_marginTop="30dip"
+        app:srcCompat="@drawable/emblem" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:text="@string/faculty_of_informatics"
+        android:textColor="@android:color/black"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/buttonStock1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/stock_1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStock1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/occupied" />
+
+        <TextView
+            android:id="@+id/occupiedStockOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/free" />
+
+
+        <TextView
+            android:id="@+id/freeStockOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStock2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/buttonStock1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="20dp"
+        android:text="@string/stock_2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStock2"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/occupied" />
+
+        <TextView
+            android:id="@+id/occupiedStockTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/free" />
+
+
+        <TextView
+            android:id="@+id/freeStockTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStock3"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/buttonStock2"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="20dp"
+        android:text="@string/stock_3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStock3"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/occupied" />
+
+        <TextView
+            android:id="@+id/occupiedStockThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/free" />
+
+
+        <TextView
+            android:id="@+id/freeStockThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="0" />
+    </LinearLayout>
+
+
+</RelativeLayout>

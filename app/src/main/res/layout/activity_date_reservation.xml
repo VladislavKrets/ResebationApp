@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.task.university.DateReservationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169.5dip"
+        android:layout_height="58dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dip"
+        android:layout_marginTop="30dip"
+        app:srcCompat="@drawable/emblem" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:text="@string/faculty_of_informatics"
+        android:textColor="@android:color/black"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/placeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Place:"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeTextView"
+
+        android:layout_toStartOf="@+id/placeTextView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="81dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/nineToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="9:00 - 10:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/tenToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 11:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/elevenToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="11:00 - 12:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/twelveToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="12:00 - 13:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/thirteenToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="13:00 - 14:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/fourteenToday"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="14:00 - 15:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeTextView"
+        android:layout_toEndOf="@+id/placeTextView"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout15">
+
+        <TextView
+            android:id="@+id/tomorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomorrow"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/nineTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="9:00 - 10:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/tenTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 11:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/elevenTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="11:00 - 12:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/twelveTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="12:00 - 13:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/thirteenTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="13:00 - 14:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+        <Button
+            android:id="@+id/fourteenTomorrow"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="14:00 - 15:00"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:background="@color/background_color"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Reserve"
+        android:layout_below="@+id/linearLayout15"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

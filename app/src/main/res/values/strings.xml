@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Find me a seat</string>
+    <string name="faculty_of_informatics">Faculty of Informatics</string>
+    <string name="find_me_a_seat">Find me a seat</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="find_free_places">Find free places</string>
+    <string name="my_reservations">My reservations</string>
+    <string name="reservation_of_rooms">Reservation of rooms</string>
+    <string name="suggest_a_cooperation">Suggest a cooperation</string>
+    <string name="stock_1">Floor 1</string>
+    <string name="occupied">Occupied:</string>
+    <string name="free">Free:</string>
+    <string name="stock_2">Floor 2</string>
+    <string name="stock_3">Floor 3</string>
+    <string name="reserve">Reserve</string>
+    <string name="reservation">Reservation:</string>
+</resources>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.task.university.StockActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169.5dip"
+        android:layout_height="58dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dip"
+        android:layout_marginTop="30dip"
+        app:srcCompat="@drawable/emblem" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:text="@string/faculty_of_informatics"
+        android:textColor="@android:color/black"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/stockNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:text="Stock 0" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="30dip"
+    android:layout_alignStart="@+id/stockNameTextView"
+    android:layout_below="@+id/imageView"
+    android:id="@+id/linearLayout4">
+    <Button
+        android:id="@+id/p1"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:background="@android:color/white"
+        android:text="1" />
+    <Button
+        android:id="@+id/p2"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:background="@android:color/white"
+        android:text="2" />
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        app:srcCompat="@drawable/table"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignStart="@+id/linearLayout4" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:layout_toStartOf="@+id/imageView3"
+        android:layout_marginTop="25dp"
+        android:id="@+id/linearLayout5">
+        <Button
+            android:id="@+id/p7"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="7" />
+        <Button
+            android:id="@+id/p6"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/imageView3"
+        android:layout_toEndOf="@+id/linearLayout5"
+        android:id="@+id/linearLayout6">
+        <Button
+            android:id="@+id/p4"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="5" />
+        <Button
+            android:id="@+id/p5"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="4" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/p3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_toEndOf="@+id/imageView3"
+        android:background="@android:color/white"
+        android:text="3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/linearLayout7">
+        <Button
+            android:id="@+id/p22"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="22" />
+        <Button
+            android:id="@+id/p21"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="21" />
+        <Button
+            android:id="@+id/p20"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="20" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dip"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/table_vertical"
+        android:layout_alignBottom="@+id/linearLayout7"
+        android:layout_toStartOf="@+id/linearLayout7"
+        android:layout_marginBottom="19dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/linearLayout7"
+        android:layout_toStartOf="@+id/imageView4"
+        android:id="@+id/linearLayout8">
+
+        <Button
+            android:id="@+id/p16"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="16" />
+        <Button
+            android:id="@+id/p17"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="17" />
+        <Button
+            android:id="@+id/p18"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="18" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/p23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="23"
+        android:layout_below="@+id/linearLayout5"
+        android:background="@android:color/white"
+        android:layout_toEndOf="@+id/linearLayout8" />
+
+    <Button
+        android:id="@+id/p19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="19"
+        android:layout_marginTop="78dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:background="@android:color/white"
+        android:layout_toEndOf="@+id/linearLayout8" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="30dp"
+        android:layout_alignTop="@+id/linearLayout8"
+        android:layout_toStartOf="@+id/linearLayout8"
+        android:id="@+id/linearLayout9">
+        <Button
+            android:id="@+id/p15"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="15" />
+        <Button
+            android:id="@+id/p14"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="14" />
+        <Button
+            android:id="@+id/p13"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="13" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/table_vertical"
+
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/linearLayout9" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_toStartOf="@+id/imageView5">
+        <Button
+            android:id="@+id/p9"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="9" />
+        <Button
+            android:id="@+id/p10"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="10" />
+        <Button
+            android:id="@+id/p11"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="11" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/p8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="8"
+        android:layout_above="@+id/imageView5"
+        android:background="@android:color/white"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/p12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="12"
+        android:layout_below="@+id/imageView5"
+        android:background="@android:color/white"
+        android:layout_toStartOf="@+id/linearLayout9" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/p19"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:id="@+id/linearLayout10">
+        <Button
+            android:id="@+id/p24"
+            android:layout_width="40dip"
+            android:background="@android:color/white"
+            android:layout_height="40dip"
+            android:text="24" />
+        <Button
+            android:id="@+id/p25"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="25" />
+        <Button
+            android:id="@+id/p26"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="26" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@drawable/table"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignEnd="@+id/linearLayout10" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignStart="@+id/linearLayout10"
+        android:id="@+id/linearLayout11">
+
+        <Button
+            android:id="@+id/p31"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="31" />
+        <Button
+            android:id="@+id/p30"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="30" />
+        <Button
+            android:id="@+id/p29"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="29" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/linearLayout11"
+        android:layout_toStartOf="@+id/linearLayout10"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/linearLayout12">
+        <Button
+            android:id="@+id/p33"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="33" />
+        <Button
+            android:id="@+id/p32"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="32" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout13"
+        android:layout_alignTop="@+id/linearLayout12"
+        android:layout_toEndOf="@+id/linearLayout10">
+        <Button
+            android:id="@+id/p27"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="27" />
+        <Button
+            android:id="@+id/p28"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@android:color/white"
+            android:text="28" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonReserve"
+        android:layout_width="120dip"
+        android:layout_height="40dip"
+        android:text="@string/reserve"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_alignStart="@+id/linearLayout8" />
+
+</RelativeLayout>
